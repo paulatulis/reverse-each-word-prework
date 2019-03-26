@@ -1,4 +1,8 @@
+string = "Hello, there and how are you?"
 def reverse_each_word(string)
+  string.split
+  string.collect do 
+    |
 end
 
 #reverses all the words in a string without reversing the order of the words
