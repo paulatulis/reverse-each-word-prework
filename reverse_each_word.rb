@@ -1,9 +1,9 @@
 string = "Hello, there and how are you?"
 def reverse_each_word(string)
-  string.split = array
-  array.collect do 
+  string.split
+  string.collect do 
     |reverse|
-    array.reverse!
+    string.reverse!
 end
 end
 
