@@ -1,11 +1,12 @@
 
+string = "Hello, and how are you?"
 def reverse_each_word(string)
-  string.split(" ") = new_array
-  new_array.collect do 
+  my_new_array = string.split(" ")
+  my_new_array.collect do 
     |item|
-   new_array << item.reverse
-   new_array.join(" ")
+   item.reverse
 end
+my_new_array.join(" ")
 end 
 
 #reverses all the words in a string without reversing the order of the words
