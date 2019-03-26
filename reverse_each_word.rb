@@ -5,8 +5,8 @@ def reverse_each_word(string)
   my_new_array.collect do 
     |item|
    item.reverse
-my_new_array.join(" ")
 end 
+my_new_array.join(" ")
 end 
 
 #reverses all the words in a string without reversing the order of the words
