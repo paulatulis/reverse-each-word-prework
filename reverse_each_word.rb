@@ -1,12 +1,11 @@
 
 def reverse_each_word(string)
-  string.split(" ") = array
-  array = []
-  array.collect do 
+  string.split(" ") = new_array
+  new_array.collect do 
     |item|
-   array << item.reverse
+   new_array << item.reverse
 end
-array.join(" ")
+new_array.join(" ")
 end 
 
 #reverses all the words in a string without reversing the order of the words
